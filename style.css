@@ -1,0 +1,151 @@
+@font-face {
+        font-family: ibm;
+        src: url(./font/IBMPlexSansThai-Medium.ttf);
+}
+
+body {
+        font-family: ibm;
+        background-color: gray;
+}
+
+.logo {
+        border-radius: 100%;
+        transition: all 0.3s;
+
+}
+
+.logo:hover {
+        transform: scale(1.2);
+}
+
+.btn-outline-success {
+        border-color: aqua;
+        color: aqua
+}
+
+.btn-outline-success:hover {
+        border-color: aqua;
+        color: white;
+        background-color: aqua;
+}
+
+.s-footer {
+        background-color: rgb(41, 40, 40);
+        color: white;
+}
+
+.footer-link {
+        color: white;
+        transition: all 0.3s;
+        text-decoration: none;
+}
+
+.footer-link:hover {
+        color: rgb(76, 183, 255);
+}
+
+hr {
+        color: white;
+}
+
+marquee {
+        background-color: aqua;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+        padding: 5px 10px 5px 10px;
+}
+
+.bt {
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+}
+
+.box {
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 40px rgb(0, 0, 0);
+}
+
+.top-menu {
+        background-image: url(./edit/bannermenu1.png);
+        transition: all 0.3s;
+        box-shadow: 2px 2px 10px black;
+        color: white;
+        font-size: x-large;
+        text-shadow: 2px 2px 5px black;
+        border-radius: 10px;
+
+}
+
+.top-menu:hover {
+        font-size: xx-large;
+        box-shadow: 2px 2px 30px black;
+}
+
+.carousel-inner {
+        border-radius: 10px;
+        box-shadow: 2px 2px 30px black;
+        transition: all 0.3s;
+}
+
+.carousel-inner:hover {
+        box-shadow: 0px 0px 50px black;
+
+}
+
+.m-link {
+        text-decoration: none;
+        color: black;
+        transition: all 0.3s;
+}
+
+.m-link:hover {
+        color: rgb(106, 160, 230);
+}
+
+
+.img {
+        transition: all 0.3s;
+        transform: scale(1);
+}
+
+.img:hover {
+        transform: scale(1.2);
+}
+
+.top-text {
+        color: rgb(0, 183, 255);
+        text-decoration: none;
+}
+
+.vdo {
+        border-radius: 10px;
+}
+
+img {
+        transition: all 0.3s;
+        transform: scale(1);
+}
+
+img:hover {
+        transform: scale(1.2);
+
+}
+
+.vdo {
+        border-radius: 10px;
+
+}
+
+.g-img {
+        cursor: pointer;
+}
+
+.ad-img {
+        transform: scale(1) !important;
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+        box-shadow: 2px 2px 30px black;
+}
